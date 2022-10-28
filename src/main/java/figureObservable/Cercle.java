@@ -17,4 +17,6 @@ public class Cercle extends Figure {
     public double calculSurface() {
         return 2*Math.PI*this.rayon;
     }
+
+
 }
