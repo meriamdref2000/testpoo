@@ -18,5 +18,13 @@ public class Cercle extends Figure {
         return 2*Math.PI*this.rayon;
     }
 
+    public double calculPerim() {
+        return Math.PI*this.rayon*this.rayon;
+    }
+
+    public void displayFigs() {
+        System.out.println("ceci est un cercle");
+    }
+
 
 }

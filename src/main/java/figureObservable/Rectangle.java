@@ -16,6 +16,14 @@ public class Rectangle extends Figure {
         return 2*(longueur+largeur);
     }
 
+    public double calculPerim() {
+        return longueur*largeur;
+    }
+
+    public void displayFigs() {
+        System.out.println("ceci est un rectangle");
+    }
+
     public Point getPoint() {
         return point;
     }
